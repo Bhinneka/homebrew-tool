@@ -1,9 +1,10 @@
 class Gubrak < Formula
     desc "concurrent http request cli tool"
     homepage "https://github.com/Bhinneka/gubrak"
-    url "https://github.com/Bhinneka/gubrak/releases/download/v0.0.0/gubrak-v0.0.0.darwin-amd64.tar.gz"
-    version "0.0.0"
-    sha256 "d5b0dc84817a1d9b58978a4bf80fa81414bd0be4ab9c083856f42ba0db190648"
+    url "https://github.com/Bhinneka/gubrak/releases/download/v1.0.0/gubrak-v1.0.0.darwin-amd64.tar.gz"
+    
+    version "1.0.0"
+    sha256 "cc960b8c62032ebc525d1791802c2ce17d666fc1dcdbc9139c9d7eb8181e13a0"
   
     def install
       bin.install "gubrak"
